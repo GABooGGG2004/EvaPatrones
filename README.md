@@ -60,20 +60,23 @@ Las barberías tradicionales a menudo manejan reservas manualmente, lo que provo
 git clone https://github.com/GABooGGG2004/EvaPatrones.git
 cd EvaPatrones
 ```
+### Ve a src
 
- Asegúrate de que todos los archivos `.java` estén en el paquete `barberia`.
+```bash
+cd src/
+```
   
 ### Compila el proyecto:
 
-   ```bash
-   javac barberia/*.java
-   ```
+```bash
+javac $(ls barberia/*.java)
+```
 
 ### Ejecuta la aplicación:
 
-  ```bash
-  java barberia.Main
-  ```
+```bash
+java barberia.Main
+```
 
 ### Compilar y ejecutar con NetBeans
 1. Abre NetBeans.
